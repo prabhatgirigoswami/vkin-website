@@ -1,3 +1,6 @@
+body {
+  border: 10px solid red !important;
+}
 * {
   margin: 0;
   padding: 0;
