@@ -24,8 +24,20 @@
 
 <section class="hero">
   <h2>Contact VKIN</h2>
-  <p>Let’s build something legendary together.</p>
-  <p>Email: <strong>vkin.brand@gmail.com</strong></p>
+  <p>Email us or send a message below.</p>
+
+  <form class="contact-form"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p style="margin-top:20px;">📧 vkin.brand@gmail.com</p>
 </section>
 
 <footer>
